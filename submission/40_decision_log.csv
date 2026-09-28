@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D01,2026-09-28,Co gan nhan xe o to o hau canh xa cao duoi 40px khong (adasind_069450.jpg L6)?,Loai bo khong gan box,Tuan thu nghiem ngat quy tac kich thuoc toi thieu R01 H >= 40 px tren anh goc,approved
+D02,2026-09-28,Xu ly xe ba banh ThreeWheeler sat vien ngoai cham vanh kinh fisheye (adasind_062370.jpg L1),Gan nhan box va danh dau thuoc tinh truncated=true,Xe bi cat boi ranh gioi quang hoc cua thau kinh theo quy dinh R05,approved
+D03,2026-09-28,Phan loai nguoi dat xe hai banh so voi nguoi ngoi tren xe hai banh,Nguoi ngoi lai gan chung 1 box Bike con nguoi dat xe tach rieng 1 Pedestrian va 1 Bike,Dam bao tinh nhat quan cua class Rider va Bike theo quy dinh R03,approved
+D04,2026-09-28,Tieu chuan xu ly cum xe un tac o hau canh xa bi che khuat cheo (adasind_117120.jpg),Chuyen len truong du an de xuat bo sung rule patch cho phep gom vao polygon ignore crowd_or_group,Hien tuong che khuat phuc tap gay tranh chap gan nhan va loi du doan mo hinh ngoai tam kiem soat cua annotator,escalated

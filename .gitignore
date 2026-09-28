@@ -4,3 +4,4 @@ build/
 .[e]nv
 __pycache__/
 *.pyc
+.DS_Store

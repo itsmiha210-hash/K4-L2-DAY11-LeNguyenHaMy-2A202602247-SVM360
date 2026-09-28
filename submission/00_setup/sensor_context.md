@@ -1,6 +1,5 @@
 # Sensor context
 
-- TODO — Rig: mô tả ngắn xe/camera gắn ở đâu theo hiểu biết của bạn từ ảnh (ADASIND không kèm tài liệu rig chi
-  tiết, ghi theo quan sát).
-- TODO — `ego_body` nhìn thấy ở đâu trong frame (góc capo, gương, tay lái...).
-- TODO — Vòng kính (lens circle) nằm ở vị trí nào trong ảnh, chiếm khoảng bao nhiêu phần khung hình.
+- **Rig & vị trí camera theo quan sát**: Dữ liệu ADASIND không đi kèm tài liệu cấu hình rig hay thông số calibration chi tiết (intrinsics/extrinsics), do đó không tự khẳng định bất kỳ thông số đo lường cứng nào mà dữ liệu không cung cấp. Theo quan sát thực tế trên các khung hình, đây là camera fisheye đơn (monocular fisheye) gắn hướng về phía trước của xe (khả năng cao ở vị trí mui xe/kính lái nhìn bao quát đường phố phía trước). Giới hạn quan trọng: Bài thực hành chỉ sử dụng dữ liệu từ **một camera đơn lẻ**, không phải hệ thống Surround View Monitoring (SVM) 4 camera hoàn chỉnh (không có camera sau, hai bên sườn, không có vùng seam ghép ảnh hay tracking xuyên camera).
+- **Vùng thân xe (`ego_body`)**: Thân xe của chính xe thu thập dữ liệu nhìn thấy được ở phần mép đáy dưới của khung hình (phần đỉnh mũi capo/mui xe ngay dưới góc nhìn camera). Vùng này che khuất một phần mặt đường và cần được gán nhãn polygon `ignore_region` với `reason="ego_body"` ở những frame thấy rõ (46/48 frame), trừ các frame không nhìn thấy thân xe như `adasind_006840.jpg` và `adasind_271039.jpg`.
+- **Vòng kính (lens circle)**: Vòng tròn trường nhìn của ống kính fisheye nằm trọn ở trung tâm khung hình chữ nhật, chiếm khoảng 80%–85% diện tích ảnh. Vùng ngoài vòng tròn quang học là vành viền đen không chứa dữ liệu cảnh vật (`lens_border`), đã được bao bọc bởi các polygon ignore sẵn có. Hình ảnh chịu độ méo quang học mắt cá rất lớn tăng dần từ tâm ra biên (`center` → `mid` → `edge`), làm các vật thể ở rìa ngoài bị nén dẹt và cong theo chu vi vòng kính.

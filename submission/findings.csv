@@ -1,1 +1,39 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L1,na,SPURIOUS,,,,,,,,
+calib,C0,adasind_019560.jpg,L6+R6,na,WRONG_CLASS,,,,,,,,
+calib,C0,adasind_019560.jpg,L7+R5,na,WRONG_CLASS,,,,,,,,
+calib,C0,adasind_019560.jpg,L8,na,SPURIOUS,,,,,,,,
+r2_qa,B2-dense,adasind_069450.jpg,L6,L_only,SPURIOUS,,P1,annotator,R01,height ~26px < 40px,rework,v1.0.0,Xe o xa duoi nguong chieu cao quy dinh
+r2_qa,B2-dense,adasind_062370.jpg,L1,L_only,ATTRIBUTE,,P2,annotator,R05,truncated tag at lens edge,rework,v1.0.0,Soat lai thuoc tinh truncated sat vanh kinh
+r2_qa,B2-dense,adasind_117120.jpg,L5,L_only,BOX_GEOMETRY,,P1,annotator,R02,partial occlusion near three-wheeler,rework,v1.0.0,Kiem tra do bam day box va occluded
+r1_craft,B2-dense,adasind_062370.jpg,L1+R1,na,ATTRIBUTE,,,,,,,,
+r1_craft,B2-dense,adasind_062370.jpg,L3+R5,na,WRONG_CLASS,,,,,,,,
+r1_craft,B2-dense,adasind_062370.jpg,R7,na,MISSING,,,,,,,,
+r1_craft,B2-dense,adasind_062370.jpg,R8,na,MISSING,,,,,,,,
+r1_craft,B2-dense,adasind_117120.jpg,L1,na,SPURIOUS,,,,,,,,
+r1_craft,B2-dense,adasind_117120.jpg,L3,na,SPURIOUS,,,,,,,,
+r1_craft,B2-dense,adasind_117120.jpg,L4,na,SPURIOUS,,,,,,,,
+r3_diag,B2-dense,adasind_062370.jpg,L1+R1,LR_noM,MISSING,E4_model_domain,P1,ai_team,R02,,keep_with_reason,,Model bo sot doi tuong co that tren anh
+r3_diag,B2-dense,adasind_062370.jpg,L2+R6,LR_noM,MISSING,E4_model_domain,P1,ai_team,R02,,keep_with_reason,,Model bo sot doi tuong co that tren anh
+r3_diag,B2-dense,adasind_062370.jpg,L3+M5,LM_noR,SPURIOUS,E0_reference_defect,P0,guideline,R02,,keep_with_reason,,Reference bo sot doi tuong ro tren anh
+r3_diag,B2-dense,adasind_062370.jpg,R5,R_only,MISSING,E1_annotator_error,P1,annotator,R01,,rework,,Annotator bo sot doi tuong can bo sung
+r3_diag,B2-dense,adasind_062370.jpg,R7,R_only,MISSING,E1_annotator_error,P1,annotator,R01,,rework,,Annotator bo sot doi tuong can bo sung
+r3_diag,B2-dense,adasind_062370.jpg,R8,R_only,MISSING,E1_annotator_error,P1,annotator,R01,,rework,,Annotator bo sot doi tuong can bo sung
+r3_diag,B2-dense,adasind_062370.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_062370.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_062370.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_062370.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_069450.jpg,L2+R1,LR_noM,MISSING,E4_model_domain,P1,ai_team,R02,,keep_with_reason,,Model bo sot doi tuong co that tren anh
+r3_diag,B2-dense,adasind_069450.jpg,L1+R2,LR_noM,MISSING,E4_model_domain,P1,ai_team,R02,,keep_with_reason,,Model bo sot doi tuong co that tren anh
+r3_diag,B2-dense,adasind_069450.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_069450.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_117120.jpg,L8+R2,LR_noM,MISSING,E4_model_domain,P1,ai_team,R02,,keep_with_reason,,Model bo sot doi tuong co that tren anh
+r3_diag,B2-dense,adasind_117120.jpg,L2+R4,LR_noM,MISSING,E4_model_domain,P1,ai_team,R02,,keep_with_reason,,Model bo sot doi tuong co that tren anh
+r3_diag,B2-dense,adasind_117120.jpg,L1,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R01,,rework,,Annotator ve thua doi tuong duoi nguong H=40px
+r3_diag,B2-dense,adasind_117120.jpg,L3,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R01,,rework,,Annotator ve thua doi tuong duoi nguong H=40px
+r3_diag,B2-dense,adasind_117120.jpg,L4,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R01,,rework,,Annotator ve thua doi tuong duoi nguong H=40px
+r3_diag,B2-dense,adasind_117120.jpg,M1,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_117120.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_117120.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_117120.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye
+r3_diag,B2-dense,adasind_117120.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,,keep_with_reason,,Model du doan ao do nhieu hoac meo fisheye

@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,30,Chói sáng trực diện và chuyển động nhanh,Đo lường baseline nhận diện phương tiện và người đi bộ phía trước trong điều kiện giao thông thông thường
+front,hard,25,Méo quang học rìa lớn và ngược sáng ban đêm/đèn pha,Đánh giá độ chính xác biên hộp khi vật thể tiến sát đầu xe ở vùng rìa góc rộng
+rear,normal,25,Bụi bẩn bám thấu kính do luồng khí đuôi xe,Đo lường khả năng bao quát không gian trống và xe bám đuôi ở khoảng cách an toàn
+rear,hard,25,Vật cản tầm thấp (cọc tiêu curb thú cưng) sát cản sau,Kiểm thử phát hiện chướng ngại vật điểm mù đuôi xe khi thực hiện thao tác lùi
+left,normal,25,Góc nhìn xiên và đổ bóng dài của thân xe,Đánh giá khả năng quan sát vạch kẻ ô đỗ song song và làn đường bên sườn trái
+left,hard,20,Phương tiện hai bánh vượt sát thân xe trong vùng seam,Kiểm định độ biến dạng hình học khi đối tượng nằm vắt ngang vùng chồng góc trước-trái
+right,normal,25,Đổ bóng từ cây cối và vỉa hè ven đường,Đánh giá khả năng định vị mép đường và ô đỗ phía bên phụ
+right,hard,25,Người đi bộ bước xuống từ vỉa hè sát gương chiếu hậu,Kiểm tra khả năng phân tách Pedestrian và Bike ở khoảng cách cực gần mép thấu kính
